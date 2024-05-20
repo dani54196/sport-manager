@@ -8,7 +8,7 @@ import Button from "../helpers/button/Button";
 const ProgramsIntro = () => {
   const heading = (
     <>
-      perspire to <span>greatness</span>
+      Fácil de usar, intuitivo y con una <span>demo disponible</span>
     </>
   );
 
@@ -18,17 +18,13 @@ const ProgramsIntro = () => {
         <article className={styled["intro__content--info"]}>
           <Heading className="medium" heading={heading} />
           <p className="text">
-            With experienced and certified instructors, Natura is the perfect
-            place to get started on your fitness journey or take your workout to
-            the next level. We offer a variety of classes designed to help women
-            of all shapes and sizes.
-          </p>
-
-          <p className="text">
-            Our classes include everything from yoga and pilates to kickboxing
-            and strength & personal training, nutritional counseling, and
-            massages plus workshops that focus on topics such as body image,
-            self-care,
+            Nuestro software de inscripciones resuelve todas tus necesidades de
+            organización de eventos deportivos. Simplifica el registro, la
+            gestión y la acreditación de participantes, permitiéndote
+            concentrarte en el evento. Ofrecemos una solución completa, desde la
+            presentación del evento hasta la publicación de resultados. Olvídate
+            de los problemas logísticos y administrativos; nosotros nos
+            encargamos de todo para que tu evento sea un éxito.
           </p>
           <Button className="primary" link="#classes">
             See Programs

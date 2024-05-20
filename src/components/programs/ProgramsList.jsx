@@ -16,7 +16,7 @@ const ProgramsList = () => {
     <section className={styled.programs} id="classes">
       <Container>
         <article className={styled.programs__content}>
-          <Heading className="medium" heading="our programs" />
+          <Heading className="medium" heading="Servicios" />
           <p className="text">
             No matter what your fitness level is, there is a program at Natura
             that is perfect for you.

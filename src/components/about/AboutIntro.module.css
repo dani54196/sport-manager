@@ -1,5 +1,5 @@
 .intro {
-    background-image: url('../../assets/woman_in_sports_bra.png');
+    background-image: url('../../assets/openwater.jpg');
     background-size: cover;
     background-position: 30%;
     background-repeat: no-repeat;
@@ -23,7 +23,6 @@
 .intro__content a {
     width: fit-content;
 }
-
 
 /* Media Queries */
 

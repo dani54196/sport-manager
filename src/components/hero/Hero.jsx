@@ -11,7 +11,7 @@ const Hero = () => {
   const { t } = useTranslation();
   const heading = (
     <>
-      Sport <span> Manage</span> for <span>Eti</span>
+      Sport <span> Manage</span>
     </>
   );
 
@@ -19,12 +19,11 @@ const Hero = () => {
     <section className={styled.hero} id="home">
       <Container>
         <Navbar />
-
         <div className={styled["hero__content--container"]}>
           <article className={styled.hero__content}>
             <Heading className="large" heading={heading} />
-            <p className="text">SISTEMA DE GESTIÓN DE EVENTOS DEPORTIVOS</p>
-            <p className="text">{t("hero.title1")}</p>
+            <p className="text">{t("hero.title")}</p>
+            <p className="text">{t("hero.subtitle")}</p>
             <Button className="primary" link="#membership">
               Solicita una demo
             </Button>

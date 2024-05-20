@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "home": "https://danicardozo.me/sport-manager/",
+  "homepage": "https://danicardozo.me/sport-manager",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -6,8 +6,10 @@ import Menu from "./Menu";
 import { HashLink as Link } from "react-router-hash-link";
 import Button from "../helpers/button/Button";
 import { useLocation } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
+  const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const { hash } = useLocation();
 
@@ -26,7 +28,7 @@ const Navbar = () => {
           <figure>
             <img src={logo} alt="Logo" />
           </figure>
-          <p>Natura</p>
+          <p>Sport Manager</p>
         </div>
 
         <RiMenuLine

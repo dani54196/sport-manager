@@ -20,10 +20,17 @@ i18n
       en: {
         translation: {
           hero: {
-            title1: "Registration systems",
-            title2: "Digital solutions",
+            title: "Registration systems",
+            subtitle:
+              "Simplify organizing races, marathons, triathlons and more",
             content:
               "Our focus is on providing comprehensive and customized solutions for businesses and enterprises worldwide. We take pride in offering a full suite of services that span from design and implementation to maintenance and continuous growth of your digital applications and platforms.",
+          },
+          footer: {
+            language: "Language",
+            contact: "Contact us",
+            phone: "Phone",
+            social: "Social media",
           },
         },
       },
@@ -31,10 +38,24 @@ i18n
       es: {
         translation: {
           hero: {
-            title1: "Sistemas de inscripciones",
-            title2: "Soluciones digitales",
+            title: "Sistemas de inscripciones",
+            subtitle:
+              "Simplifica la organización de carreras, maratones, triatlones y más",
             content:
               "Nuestro enfoque está en proporcionar soluciones completas y personalizadas para empresas y negocios en todo el mundo. Nos enorgullece ofrecer un conjunto completo de servicios que abarcan desde el diseño y la implementación hasta el mantenimiento y el crecimiento continuo de tus aplicaciones y plataformas digitales.",
+          },
+          navbar: {
+            home: "Inicio",
+            about: "Acerca de",
+            programs: "Servicios",
+            facilities: "Instalaciones",
+            contact: "Contacto",
+          },
+          footer: {
+            language: "Idioma",
+            contact: "Contactanos",
+            phone: "Telefono",
+            social: "Redes sociales",
           },
         },
       },
