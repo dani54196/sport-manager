@@ -19,6 +19,7 @@
 
 .text {
   color: var(--white);
+  font-size: large;
   line-height: 25px;
 }
 

@@ -12,7 +12,7 @@ const AboutIntro = () => {
       <Container className={styled.intro__grid}>
         <article className={styled.intro__content}>
           <Heading className="medium" heading={t("about.title")} />
-          <p className="text-dark bold">{t("about.content")}</p>
+          <p className="text bold">{t("about.content")}</p>
           {/* <Button link="#membership" className="primary">
             Join Natura
           </Button> */}
