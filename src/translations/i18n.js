@@ -71,6 +71,38 @@ i18n
               "Let us transform the management of your sports events!",
             contact: "Send message",
           },
+          price: {
+            title: "Prices",
+            listPrices: [
+              {
+                title: "Transfer the Service Cost to the Registration Price",
+                description:
+                  "This option allows event organizers to include the registration service cost directly in the price paid by participants. This way, organizers do not have to worry about the initial costs of the service.",
+              },
+              {
+                title: "Full Service",
+                description:
+                  "This option includes a one-time payment that covers all the services necessary for event registration and management. It is a convenient option for unique events or those who prefer to pay everything upfront.",
+              },
+              {
+                title: "Subscription",
+                description:
+                  "In addition to the monthly payment, we also offer annual subscription plans with discounts. This option is perfect for organizers planning multiple events throughout the year and want to take advantage of reduced prices.",
+              },
+              {
+                title: "Shared Server and Subdomain",
+                description:
+                  "For those on a tighter budget, we offer a shared server and subdomain option. This allows organizers to use our shared infrastructure to reduce costs.",
+              },
+              {
+                title: "Free for Free Races or Charity Benefits",
+                description:
+                  "We support charitable initiatives and free races by offering our service at no cost for these events. This includes all the basic features needed to manage registrations and the event",
+              },
+            ],
+            description:
+              "We provide invoices and accept all major credit cards to facilitate the payment process.",
+          },
           navbar: {
             home: "Home",
             about: "About",
@@ -141,6 +173,39 @@ i18n
             subcontent:
               "¡Déjanos transformar la gestión de tus eventos deportivos!",
             contact: "Enviar mensaje",
+          },
+          price: {
+            title: "Precios",
+            listPrices: [
+              {
+                title:
+                  "Trasladar el Costo del Servicio al Precio de Inscripción",
+                description:
+                  "Esta opción permite que los organizadores de eventos incluyan el costo del servicio de inscripción directamente en el precio que pagan los participantes. De esta manera, los organizadores no tienen que preocuparse por los costos iniciales del servicio.",
+              },
+              {
+                title: "Servicio Completo",
+                description:
+                  "Esta opción incluye un pago único que cubre todos los servicios necesarios para la inscripción y gestión del evento. Es una opción conveniente para eventos únicos o aquellos que prefieren pagar todo por adelantado.",
+              },
+              {
+                title: "Suscripción",
+                description:
+                  "Además del pago mensual, también ofrecemos planes de suscripción anual con descuentos. Esta opción es perfecta para organizadores que planean múltiples eventos durante el año y desean aprovechar precios reducidos.",
+              },
+              {
+                title: "Servidor Compartido y Subdominio",
+                description:
+                  "Para aquellos con un presupuesto más ajustado, ofrecemos una opción de servidor compartido y subdominio. Esto permite a los organizadores usar nuestra infraestructura compartida para reducir costos.",
+              },
+              {
+                title: "Gratis para Carreras Gratuitas o Beneficios de Caridad",
+                description:
+                  "Apoyamos iniciativas benéficas y carreras gratuitas ofreciendo nuestro servicio sin costo alguno para estos eventos. Esto incluye todas las características básicas necesarias para gestionar las inscripciones y el evento.",
+              },
+            ],
+            description:
+              "Proporcionamos facturas y aceptamos todas las principales tarjetas de crédito para facilitar el proceso de pago.",
           },
           navbar: {
             home: "Inicio",

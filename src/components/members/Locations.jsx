@@ -2,27 +2,34 @@ import React from "react";
 import styled from "./Locations.module.css";
 import Heading from "../helpers/heading/Heading";
 import Container from "../helpers/wrapper/Container";
-import Item from "../helpers/item/Item";
-import { gymLocations } from "./gymLocations";
+import { useTranslation } from "react-i18next";
 
 const Locations = () => {
-  // map through the gymLocations array and render a Item component for each location
-  const locations = gymLocations.map((location) => {
-    return <Item key={location.id} item={location} className="location" />;
-  });
+  const { t } = useTranslation();
 
   return (
     <section className={styled.locations} id="locations">
       <Container>
         <article className={styled.locations__content}>
-          <Heading className="medium--dark" heading="Precios" />
-          <p className="text--dark">
-            Whether you're just starting out on your fitness journey or you're a
-            seasoned pro, we have something for everyone.
-          </p>
+          <Heading className="medium--dark" heading={t("price.title")} />
         </article>
 
-        <div className={styled.locations__list}>{locations}</div>
+        <div className={styled.locations__list}>
+          {t("price.listPrices", { returnObjects: true }).map(
+            (price, index) => (
+              <article key={index} className={styled.item}>
+                <div className={styled.small}>
+                  <Heading heading={price.title} className="medium--dark"/>
+                  <p className={styled.text}>{price.description}</p>
+                </div>
+              </article>
+            )
+          )}
+        </div>
+
+        <article className={styled.locations__content}>
+          <p className="text--dark">{t("price.description")}</p>
+        </article>
       </Container>
     </section>
   );
