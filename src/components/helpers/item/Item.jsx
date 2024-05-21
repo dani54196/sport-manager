@@ -11,10 +11,6 @@ const Item = (props) => {
 
   return (
     <article className={styled.item}>
-      <figure className={styled[props.className]}>
-        <img src={image} alt={heading} />
-      </figure>
-
       <div className={styled.item__info}>
         <Heading className={headingClassName} heading={heading} />
         <p className={descClassName}>{desc}</p>
@@ -24,3 +20,9 @@ const Item = (props) => {
 };
 
 export default Item;
+
+{
+  /* <figure className={styled[props.className]}>
+  <img src={image} alt={heading} />
+</figure> */
+}

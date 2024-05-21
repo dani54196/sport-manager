@@ -13,7 +13,7 @@ function LanguageSwitcher() {
 
   return (
     <button className={styled.button} onClick={changeLanguage}>
-      {i18n.language === "en" ? "Cambiar a Español" : "Change to English"}
+      {i18n.language === "en" ? "Español" : "English"}
     </button>
   );
 }

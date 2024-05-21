@@ -3,11 +3,13 @@ import styled from "./Facilities.module.css";
 import running from "../../assets/running.mp4";
 import Heading from "../helpers/heading/Heading";
 import Container from "../helpers/wrapper/Container";
+import { useTranslation } from "react-i18next";
 
 const Facilities = () => {
+  const { t } = useTranslation();
   const heading = (
     <>
-      Where <span>health</span>, beauty, and fitness meet.
+      {t("facilities.title")} <span>{t("facilities.spam")}</span>
     </>
   );
 
@@ -19,11 +21,7 @@ const Facilities = () => {
         <Container>
           <article className={styled.facility__content}>
             <Heading className="medium" heading={heading} />
-            <p className="text">
-              Take advantage of our private locker rooms, showers, well-equipped
-              gym floor, saunas, eucalyptus-infused towels, and hair & makeup
-              stations.
-            </p>
+            <p className="text">{t("facilities.content")}</p>
           </article>
         </Container>
       </div>

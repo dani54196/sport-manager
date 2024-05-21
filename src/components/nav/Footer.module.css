@@ -3,6 +3,7 @@
   padding-top: 1rem;
   height: max-content;
   scroll-snap-align: end;
+  padding-bottom: 0.1rem;
 }
 
 .footer article {
@@ -156,5 +157,12 @@
 
 a {
   text-decoration: none;
+  color: var(--secondary);
+}
+
+.copyright {
+  text-align: center;
+  padding: 0.1rem 0;
+  background-color: var(--white);
   color: var(--secondary);
 }

@@ -24,9 +24,9 @@ const Hero = () => {
             <Heading className="large" heading={heading} />
             <p className="text">{t("hero.title")}</p>
             <p className="text">{t("hero.subtitle")}</p>
-            <Button className="primary" link="#membership">
+            {/* <Button className="primary" link="#membership">
               Solicita una demo
-            </Button>
+            </Button> */}
           </article>
         </div>
       </Container>
