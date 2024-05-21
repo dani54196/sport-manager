@@ -27,6 +27,11 @@ const ProgramsList = () => {
             )}
           </div>
         </article>
+        <article>
+          <p className={styled.text}>
+            {t("services.additional")}
+          </p>
+        </article>
       </Container>
     </section>
   );

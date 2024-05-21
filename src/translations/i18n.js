@@ -56,6 +56,8 @@ i18n
                 content: "Publish the event results quickly and easily.",
               },
             ],
+            additional:
+              "Whatsapp Bot, Dedicated Database, Custom Email and Domain, Email Sending, Certificate Generation, Reports.",
           },
           facilities: {
             title: "Everything You Need for Successful ",
@@ -159,6 +161,8 @@ i18n
                   "Publica los resultados del evento de manera rápida y sencilla.",
               },
             ],
+            additional:
+              "Bot para Whatsapp, Base de Datos Dedicada, Correo y Dominio personalizado, Envio de Correos, Generacion de certificados, informes.",
           },
           facilities: {
             title: "Todo lo que Necesitas para Eventos Deportivos ",
