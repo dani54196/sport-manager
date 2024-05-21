@@ -63,6 +63,14 @@ i18n
             content:
               "Simplify registration, management, and results publication in one place.",
           },
+          join: {
+            title: "About Us",
+            content:
+              "We are excited to help you. We have the best developers and legal experts to carry out your projects and create your terms and conditions.",
+            subcontent:
+              "Let us transform the management of your sports events!",
+            contact: "Send message",
+          },
           navbar: {
             home: "Home",
             about: "About",
@@ -125,6 +133,14 @@ i18n
             spam: "Exitosos",
             content:
               "Simplifica la inscripción, la gestión y la publicación de resultados en un solo lugar.",
+          },
+          join: {
+            title: "Nosotros",
+            content:
+              "Estamos entusiasmados de ayudarte. Contamos con los mejores desarrolladores y expertos legales para llevar a cabo tus proyectos y crear tus términos y condiciones.",
+            subcontent:
+              "¡Déjanos transformar la gestión de tus eventos deportivos!",
+            contact: "Enviar mensaje",
           },
           navbar: {
             home: "Inicio",
